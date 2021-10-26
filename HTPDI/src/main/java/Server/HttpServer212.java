@@ -16,6 +16,11 @@ public class HttpServer212 {
     private String host;
     private int port;
 
+    /**
+     * Parameterized constructor
+     * @param host
+     * @param port
+     */
     public HttpServer212(String host, int port){
         this.host = host;
         this.port = port;

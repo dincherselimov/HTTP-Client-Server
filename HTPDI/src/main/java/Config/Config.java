@@ -67,7 +67,6 @@ public class Config {
     public int getPort() {
         return port;
     }
-
     public String getHost() {
         return host;
     }

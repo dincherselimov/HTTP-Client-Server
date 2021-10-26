@@ -22,6 +22,12 @@ public class PUT {
         this.send_file = send_file;
     }
 
+    /**
+     * This method is used to handle the incoming put request
+     * @param url1
+     * @return
+     * @throws IOException
+     */
     public String putRequest(String url1) throws IOException {
 
         //Set the URI
