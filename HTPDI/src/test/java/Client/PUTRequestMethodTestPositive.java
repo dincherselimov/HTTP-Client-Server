@@ -2,11 +2,12 @@ package Client;
 
 import Config.Config;
 import org.junit.jupiter.api.Test;
-
 import java.io.IOException;
-
 import static org.junit.Assert.assertEquals;
 
+/**
+ * Positive Test for testing the request method
+ */
 public class PUTRequestMethodTestPositive {
 
     @Test

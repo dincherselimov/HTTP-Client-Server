@@ -10,10 +10,13 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.URL;
 
-
+/**
+ * Test if the server has started
+ * Test if the file has been download
+ */
 public class HttpFileServerTest {
 
-    //това тука е като @Before, но тага не може да се сложи понеже в метода има String и int
+    //Before everything start the server
     @Before
     public void setServer() throws IOException {
         HttpServer server = new HttpServer(Config.getInstance().getHost(), Config.getInstance().getPort());
@@ -28,7 +31,7 @@ public class HttpFileServerTest {
     }
 
 
-    //Testing if the server can start
+    //Testing if the server has started
     @Test
     public void testStart() throws IOException {
         setServer();

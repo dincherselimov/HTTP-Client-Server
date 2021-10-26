@@ -5,10 +5,13 @@ import org.junit.jupiter.api.Test;
 import java.io.IOException;
 import static org.junit.Assert.assertEquals;
 
+/**
+ * Negative test for file name
+ */
 public class PUTSendFileTestNegative {
 
     @Test
-   public void testPutSendFileNegative() throws IOException {
+    public void testPutSendFileNegative() throws IOException {
 
         PUT put = new PUT(Config.getInstance().getPUT(), Config.getInstance().getSend_file());
         String actual_method =  put.getSend_file();

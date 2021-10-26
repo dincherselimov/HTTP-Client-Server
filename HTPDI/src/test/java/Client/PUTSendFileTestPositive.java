@@ -2,14 +2,14 @@ package Client;
 
 import Config.Config;
 import org.junit.jupiter.api.Test;
-
 import java.io.IOException;
-
 import static org.junit.Assert.assertEquals;
 
+
+/**
+ * Positive test for file name
+ */
 public class PUTSendFileTestPositive {
-
-
     @Test
     public void testPutSendFilePositive() throws IOException {
 

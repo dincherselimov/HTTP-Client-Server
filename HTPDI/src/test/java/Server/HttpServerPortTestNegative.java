@@ -7,8 +7,10 @@ import java.io.IOException;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+/**
+ * Negative test for server port
+ */
 public class HttpServerPortTestNegative {
-
 
     @Test
     public void testServerPortNegative() throws IOException {

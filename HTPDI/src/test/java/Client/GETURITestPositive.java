@@ -2,11 +2,12 @@ package Client;
 
 import Config.Config;
 import org.junit.jupiter.api.Test;
-
 import java.io.IOException;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+/**
+ * Positive test for URI address
+ */
 public class GETURITestPositive {
 
     @Test

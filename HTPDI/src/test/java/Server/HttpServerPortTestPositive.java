@@ -2,11 +2,12 @@ package Server;
 
 import Config.Config;
 import org.junit.jupiter.api.Test;
-
 import java.io.IOException;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+/**
+ * Positive test for server port
+ */
 public class HttpServerPortTestPositive {
 
     @Test

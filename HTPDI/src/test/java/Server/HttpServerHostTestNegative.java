@@ -7,11 +7,13 @@ import java.io.IOException;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * Negative test for host name
+ */
 public class HttpServerHostTestNegative {
 
-
     @Test
-   public void testServerHostNegative() throws IOException {
+    public void testServerHostNegative() throws IOException {
 
         HttpServer server212 = new HttpServer(Config.getInstance().getHost(),Config.getInstance().getPort());
 

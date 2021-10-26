@@ -5,6 +5,9 @@ import org.junit.jupiter.api.Test;
 import java.io.IOException;
 import static org.junit.Assert.assertEquals;
 
+/**
+ * Negative Test for testing the request method
+ */
 public class PUTRequestMethodTestNegative {
 
     @Test
