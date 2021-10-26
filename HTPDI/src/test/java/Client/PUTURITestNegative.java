@@ -1,7 +1,7 @@
 package Client;
 
 import Config.Config;
-import Server.HttpServer212;
+import Server.HttpServer;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.jupiter.api.Test;
@@ -13,13 +13,13 @@ public class PUTURITestNegative {
 
     @Before
     public void start() throws IOException {
-        HttpServer212 server212 = new HttpServer212(Config.getInstance().getHost(), Config.getInstance().getPort());
+        HttpServer server212 = new HttpServer(Config.getInstance().getHost(), Config.getInstance().getPort());
         server212.serverStart();
     }
 
     @After
     public void stop() throws IOException {
-        HttpServer212 server212 = new HttpServer212(Config.getInstance().getHost(), Config.getInstance().getPort());
+        HttpServer server212 = new HttpServer(Config.getInstance().getHost(), Config.getInstance().getPort());
         server212.stop();
     }
 

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>D:/Manik/HTTPDS/HTPDI/src</OriginalElement>
+  <nodes>
+    <node x="1247.0" y="615.0">Client.PUTRequestMethodTestNegative</node>
+    <node x="757.0" y="615.0">Server.HttpServerHostTestNegative</node>
+    <node x="2685.0" y="615.0">Client.GETURITestPositive</node>
+    <node x="2645.5" y="406.0">Client.GET</node>
+    <node x="257.0" y="615.0">Server.HttpServerHostTestPositive</node>
+    <node x="1627.0" y="0.0">Config.Config</node>
+    <node x="2001.0" y="615.0">Client.PUTSendFileTestPositive</node>
+    <node x="0.0" y="615.0">Server.HttpServerPortTestNegative</node>
+    <node x="1537.0" y="615.0">Client.PUTURITestPositive</node>
+    <node x="1018.0" y="593.0">Client.PUTURITestNegative</node>
+    <node x="1760.0" y="615.0">Client.PUTSendFileTestNegative</node>
+    <node x="2908.0" y="615.0">Client.GETURITestNegative</node>
+    <node x="296.81122448979613" y="77.5">Server.HTTPHandler</node>
+    <node x="2233.0" y="615.0">Client.PUTRequestMethodTestPositive</node>
+    <node x="1830.25" y="383.5">Client.PUT</node>
+    <node x="2514.0" y="615.0">Client.RequestRunner</node>
+    <node x="509.0" y="615.0">Server.HttpServerPortTestPositive</node>
+    <node x="492.5" y="350.0">Server.HttpServer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Server.HttpServerPortTestNegative" target="Config.Config" relationship="DEPENDENCY">
+      <point x="-59.25" y="-39.5" />
+      <point x="59.25" y="330.0" />
+      <point x="1706.0" y="330.0" />
+      <point x="0.0" y="150.0" />
+    </edge>
+    <edge source="Client.PUTSendFileTestPositive" target="Config.Config" relationship="DEPENDENCY">
+      <point x="53.0" y="-39.5" />
+      <point x="2160.0" y="330.0" />
+      <point x="1706.0" y="330.0" />
+      <point x="0.0" y="150.0" />
+    </edge>
+    <edge source="Server.HttpServer" target="Config.Config" relationship="DEPENDENCY">
+      <point x="41.75" y="-95.5" />
+      <point x="617.75" y="330.0" />
+      <point x="1706.0" y="330.0" />
+      <point x="0.0" y="150.0" />
+    </edge>
+    <edge source="Client.GETURITestNegative" target="Client.GET" relationship="CREATE">
+      <point x="-52.25" y="-39.5" />
+      <point x="2960.25" y="572.0" />
+      <point x="2736.0" y="572.0" />
+      <point x="0.0" y="39.5" />
+    </edge>
+    <edge source="Client.PUTSendFileTestNegative" target="Client.PUT" relationship="CREATE">
+      <point x="55.250000000000114" y="-39.5" />
+      <point x="1925.75" y="572.0" />
+      <point x="1921.25" y="572.0" />
+      <point x="0.0" y="62.0" />
+    </edge>
+    <edge source="Server.HttpServerHostTestPositive" target="Config.Config" relationship="DEPENDENCY">
+      <point x="-58.0" y="-39.5" />
+      <point x="315.0" y="330.0" />
+      <point x="1706.0" y="330.0" />
+      <point x="0.0" y="150.0" />
+    </edge>
+    <edge source="Client.PUTRequestMethodTestNegative" target="Config.Config" relationship="DEPENDENCY">
+      <point x="-67.5" y="-39.5" />
+      <point x="1314.5" y="330.0" />
+      <point x="1706.0" y="330.0" />
+      <point x="0.0" y="150.0" />
+    </edge>
+    <edge source="Server.HttpServerHostTestPositive" target="Server.HttpServer" relationship="CREATE">
+      <point x="58.0" y="-39.5" />
+      <point x="431.0" y="572.0" />
+      <point x="576.0" y="572.0" />
+      <point x="0.0" y="95.5" />
+    </edge>
+    <edge source="Client.PUTURITestPositive" target="Client.PUT" relationship="CREATE">
+      <point x="50.75" y="-39.5" />
+      <point x="1689.25" y="572.0" />
+      <point x="1921.25" y="572.0" />
+      <point x="0.0" y="62.0" />
+    </edge>
+    <edge source="Server.HttpServerHostTestNegative" target="Config.Config" relationship="DEPENDENCY">
+      <point x="60.25" y="-39.5" />
+      <point x="937.75" y="330.0" />
+      <point x="1706.0" y="330.0" />
+      <point x="0.0" y="150.0" />
+    </edge>
+    <edge source="Client.PUTSendFileTestPositive" target="Client.PUT" relationship="CREATE">
+      <point x="-53.0" y="-39.5" />
+      <point x="2054.0" y="572.0" />
+      <point x="1921.25" y="572.0" />
+      <point x="0.0" y="62.0" />
+    </edge>
+    <edge source="Client.GETURITestPositive" target="Client.GET" relationship="CREATE">
+      <point x="-50.75" y="-39.5" />
+      <point x="0.0" y="39.5" />
+    </edge>
+    <edge source="Server.HttpServerPortTestPositive" target="Config.Config" relationship="DEPENDENCY">
+      <point x="57.0" y="-39.5" />
+      <point x="680.0" y="562.0" />
+      <point x="670.0" y="562.0" />
+      <point x="670.0" y="330.0" />
+      <point x="1706.0" y="330.0" />
+      <point x="0.0" y="150.0" />
+    </edge>
+    <edge source="Client.PUTURITestPositive" target="Config.Config" relationship="DEPENDENCY">
+      <point x="-50.75" y="-39.5" />
+      <point x="1587.75" y="330.0" />
+      <point x="1706.0" y="330.0" />
+      <point x="0.0" y="150.0" />
+    </edge>
+    <edge source="Server.HttpServerPortTestNegative" target="Server.HttpServer" relationship="CREATE">
+      <point x="59.25" y="-39.5" />
+      <point x="177.75" y="572.0" />
+      <point x="576.0" y="572.0" />
+      <point x="0.0" y="95.5" />
+    </edge>
+    <edge source="Client.PUTRequestMethodTestNegative" target="Client.PUT" relationship="CREATE">
+      <point x="67.5" y="-39.5" />
+      <point x="1449.5" y="572.0" />
+      <point x="1921.25" y="572.0" />
+      <point x="0.0" y="62.0" />
+    </edge>
+    <edge source="Client.PUTURITestNegative" target="Client.PUT" relationship="CREATE">
+      <point x="69.66666666666652" y="-61.5" />
+      <point x="1192.1666666666665" y="572.0" />
+      <point x="1921.25" y="572.0" />
+      <point x="0.0" y="62.0" />
+    </edge>
+    <edge source="Client.GETURITestNegative" target="Config.Config" relationship="DEPENDENCY">
+      <point x="52.25" y="-39.5" />
+      <point x="3064.75" y="330.0" />
+      <point x="1706.0" y="330.0" />
+      <point x="0.0" y="150.0" />
+    </edge>
+    <edge source="Client.PUTURITestNegative" target="Server.HttpServer" relationship="CREATE">
+      <point x="-69.66666666666674" y="-61.5" />
+      <point x="1052.8333333333333" y="572.0" />
+      <point x="576.0" y="572.0" />
+      <point x="0.0" y="95.5" />
+    </edge>
+    <edge source="Client.PUT" target="Config.Config" relationship="DEPENDENCY">
+      <point x="0.0" y="-62.0" />
+      <point x="1921.25" y="330.0" />
+      <point x="1706.0" y="330.0" />
+      <point x="0.0" y="150.0" />
+    </edge>
+    <edge source="Client.RequestRunner" target="Config.Config" relationship="DEPENDENCY">
+      <point x="0.0" y="-39.5" />
+      <point x="2589.5" y="330.0" />
+      <point x="1706.0" y="330.0" />
+      <point x="0.0" y="150.0" />
+    </edge>
+    <edge source="Client.PUTRequestMethodTestPositive" target="Client.PUT" relationship="CREATE">
+      <point x="-65.25" y="-39.5" />
+      <point x="2298.25" y="572.0" />
+      <point x="1921.25" y="572.0" />
+      <point x="0.0" y="62.0" />
+    </edge>
+    <edge source="Client.RequestRunner" target="Client.PUT" relationship="CREATE">
+      <point x="-50.33333333333337" y="-39.5" />
+      <point x="2539.1666666666665" y="572.0" />
+      <point x="1921.25" y="572.0" />
+      <point x="0.0" y="62.0" />
+    </edge>
+    <edge source="Server.HttpServerHostTestNegative" target="Server.HttpServer" relationship="CREATE">
+      <point x="-60.25" y="-39.5" />
+      <point x="817.25" y="572.0" />
+      <point x="576.0" y="572.0" />
+      <point x="0.0" y="95.5" />
+    </edge>
+    <edge source="Client.PUTSendFileTestNegative" target="Config.Config" relationship="DEPENDENCY">
+      <point x="-55.249999999999886" y="-39.5" />
+      <point x="1815.25" y="562.0" />
+      <point x="1819.75" y="562.0" />
+      <point x="1819.75" y="330.0" />
+      <point x="1706.0" y="330.0" />
+      <point x="0.0" y="150.0" />
+    </edge>
+    <edge source="Server.HttpServerPortTestPositive" target="Server.HttpServer" relationship="CREATE">
+      <point x="-57.0" y="-39.5" />
+      <point x="566.0" y="572.0" />
+      <point x="576.0" y="572.0" />
+      <point x="0.0" y="95.5" />
+    </edge>
+    <edge source="Client.PUTURITestNegative" target="Config.Config" relationship="DEPENDENCY">
+      <point x="0.0" y="-61.5" />
+      <point x="1122.5" y="330.0" />
+      <point x="1706.0" y="330.0" />
+      <point x="0.0" y="150.0" />
+    </edge>
+    <edge source="Server.HttpServer" target="Server.HTTPHandler" relationship="CREATE">
+      <point x="-41.75" y="-95.5" />
+      <point x="534.25" y="320.0" />
+      <point x="437.31122448979613" y="320.0" />
+      <point x="0.0" y="72.5" />
+    </edge>
+    <edge source="Client.GET" target="Config.Config" relationship="DEPENDENCY">
+      <point x="0.0" y="-39.5" />
+      <point x="2736.0" y="330.0" />
+      <point x="1706.0" y="330.0" />
+      <point x="0.0" y="150.0" />
+    </edge>
+    <edge source="Client.GETURITestPositive" target="Config.Config" relationship="DEPENDENCY">
+      <point x="50.75" y="-39.5" />
+      <point x="2837.0" y="330.0" />
+      <point x="1706.0" y="330.0" />
+      <point x="0.0" y="150.0" />
+    </edge>
+    <edge source="Client.RequestRunner" target="Client.GET" relationship="CREATE">
+      <point x="50.33333333333337" y="-39.5" />
+      <point x="2639.8333333333335" y="572.0" />
+      <point x="2736.0" y="572.0" />
+      <point x="0.0" y="39.5" />
+    </edge>
+    <edge source="Client.PUTRequestMethodTestPositive" target="Config.Config" relationship="DEPENDENCY">
+      <point x="65.25" y="-39.5" />
+      <point x="2428.75" y="330.0" />
+      <point x="1706.0" y="330.0" />
+      <point x="0.0" y="150.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.7000000000000002" showDependencies="true" x="2126.9285714285684" y="334.14285714285705" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

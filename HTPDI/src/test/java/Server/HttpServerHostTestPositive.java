@@ -12,7 +12,7 @@ public class HttpServerHostTestPositive {
     @Test
     public void testServerHostPositive() throws IOException {
 
-        HttpServer212 server212 = new HttpServer212(Config.getInstance().getHost(),Config.getInstance().getPort());
+        HttpServer server212 = new HttpServer(Config.getInstance().getHost(),Config.getInstance().getPort());
 
         String actual_host = server212.getHost();
         String expected_host = "localhost";

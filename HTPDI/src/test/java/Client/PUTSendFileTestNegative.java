@@ -1,8 +1,6 @@
 package Client;
 
 import Config.Config;
-import Server.HttpServer212;
-import org.junit.Before;
 import org.junit.jupiter.api.Test;
 import java.io.IOException;
 import static org.junit.Assert.assertEquals;

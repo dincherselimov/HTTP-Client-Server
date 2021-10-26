@@ -12,7 +12,7 @@ public class HttpServerPortTestPositive {
     @Test
     public void testServerPortPositive() throws IOException {
 
-        HttpServer212 server212 = new HttpServer212(Config.getInstance().getHost(),Config.getInstance().getPort());
+        HttpServer server212 = new HttpServer(Config.getInstance().getHost(),Config.getInstance().getPort());
 
         int actual_port = server212.getPort();
         int expected_host = 9000;
